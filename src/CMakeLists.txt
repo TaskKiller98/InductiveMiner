@@ -1,0 +1,1 @@
+add_executable(main main.cpp Event.cpp Event.h ProcessTree.cpp ProcessTree.h Trace.cpp Trace.h Footprint.cpp Footprint.h Place.cpp Place.h Node.cpp Node.h Petri_net.cpp Petri_net.h Component.cpp Component.h)
