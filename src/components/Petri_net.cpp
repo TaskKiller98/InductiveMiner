@@ -42,21 +42,3 @@ void Petri_net::dfs(Node *v)
             dfs(to);
     }
 }
-
-string Petri_net::to_string()
-{
-    string res = "digraph G {\n";
-    for (Node *node : all_nodes)
-    {
-        if (node->get_color() != "")
-            res += node->get_event() + "[shape=" + node->get_shape() + ",style=filled,color=black];\n";
-        else
-            res += node->get_event() + "[shape=" + node->get_shape() + "];\n";
-    }
-    for (pair <Node*, Node* > p : edges)
-    {
-        res += p.first->get_event() + " -> " + p.second->get_event() + ";\n";
-    }
-    res += "}";
-    return res;
-}

@@ -16,8 +16,6 @@ class Petri_net
 public:
     Petri_net(Component component);
     void dfs(Node* v);
-    string to_string();
-private:
     set < pair < Node* , Node* > > edges;
     set <Node*, myClassComp> all_nodes;
 };

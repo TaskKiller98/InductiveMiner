@@ -1,0 +1,45 @@
+syntax = 'proto3';
+package mining;
+
+option go_package = "process-mining-server/mining";
+
+import "logs.proto";
+import "petri_net.proto";
+import "google/protobuf/empty.proto";
+
+message Algorithm {
+    string name = 1;
+}
+
+message AlgorithmRegistration {
+    Algorithm algorithm = 1;
+    string address = 2;
+    bool online = 3;
+    bool offline = 4;
+}
+
+message AllAlgorithms {
+    repeated Algorithm algorithms = 1;
+}
+
+message ProjectMiningRequest {
+    logs.Project project = 1;
+    Algorithm algorithm = 2;
+}
+
+service MiningRegistry {
+    rpc RegisterAlgorithm(AlgorithmRegistration) returns (google.protobuf.Empty) {};
+
+    rpc GetOfflineAlgorithms(google.protobuf.Empty) returns (AllAlgorithms) {};
+    rpc GetOnlineAlgorithms(google.protobuf.Empty) returns (AllAlgorithms) {};
+}
+
+service Mining {
+    rpc AnalyzeOffline(ProjectMiningRequest) returns (petri_net.PetriNet) {};
+    rpc AnalyzeOnline(ProjectMiningRequest) returns (stream petri_net.PetriNetChanging) {};
+}
+
+service MiningAlgorithm {
+    rpc AnalyzeOffline(logs.Project) returns (petri_net.PetriNet) {};
+    rpc AnalyzeOnline(logs.Project) returns (stream petri_net.PetriNetChanging) {};
+}

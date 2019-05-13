@@ -1,0 +1,40 @@
+syntax = 'proto3';
+package logs;
+
+option go_package = "process-mining-server/logs";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+
+message Project {
+    string name = 1;
+}
+
+message Log {
+    string project = 1;
+    string trace = 2;
+    string action = 3;
+    google.protobuf.Timestamp created_at = 4;
+    string additional_info = 5;
+}
+
+message Trace {
+    repeated Log logs = 1;
+}
+
+message Traces {
+    repeated Trace traces = 1;
+}
+
+message Projects {
+    repeated Project projects = 1;
+}
+
+service Logs {
+    rpc GetProjects(google.protobuf.Empty) returns (Projects) {};
+
+    rpc GetTracesOfProject(Project) returns (Traces) {};
+    rpc ListenLogsOfProject(Project) returns (stream Log) {};
+
+    rpc UploadLogs (Trace) returns (google.protobuf.Empty) {};
+}

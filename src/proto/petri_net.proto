@@ -1,0 +1,24 @@
+syntax = 'proto3';
+package petri_net;
+
+option go_package = "process-mining-server/petri_net";
+
+message Place {
+    string name = 1;
+    repeated Transition incomingTransitions = 2;
+    repeated Transition outgoingTransitions = 3;
+}
+
+message Transition {
+    string name = 1;
+}
+
+message PetriNet {
+    repeated Place places = 1;
+    repeated Transition transitions = 2;
+}
+
+message PetriNetChanging {
+    repeated Place changedPlaces = 2;
+    repeated Transition changedTransitions = 3;
+}
