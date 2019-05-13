@@ -12,7 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
   "../src/CMakeLists.txt"
-  "../test/CMakeLists.txt"
+  "../tests/CMakeLists.txt"
   "/snap/clion/70/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "/snap/clion/70/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "/snap/clion/70/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -47,11 +47,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/main.dir/DependInfo.cmake"
-  "test/CMakeFiles/tests.dir/DependInfo.cmake"
+  "src/CMakeFiles/src.dir/DependInfo.cmake"
+  "tests/CMakeFiles/tests.dir/DependInfo.cmake"
   )

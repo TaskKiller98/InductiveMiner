@@ -9,8 +9,8 @@ src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o
  /home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Event.h
  /home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Footprint.h
  /home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Trace.h
-src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o
- /home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp
+src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o
+ /home/gosha/Рабочий стол/projects/InductiveMiner/tests/Algortihm_B_test.cpp
 src/CMakeFiles/main.dir/components/Component.cpp.o
  /home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.cpp
  /home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.h

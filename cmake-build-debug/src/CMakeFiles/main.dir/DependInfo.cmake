@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Inductive_miner_algorithm.cpp" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o"
-  "/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o"
+  "/home/gosha/Рабочий стол/projects/InductiveMiner/tests/Algortihm_B_test.cpp" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o"
   "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.cpp" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/main.dir/components/Component.cpp.o"
   "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Node.cpp" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/main.dir/components/Node.cpp.o"
   "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Petri_net.cpp" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/main.dir/components/Petri_net.cpp.o"
@@ -19,6 +19,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src/.."
   )
 
 # Targets to which this target links.
