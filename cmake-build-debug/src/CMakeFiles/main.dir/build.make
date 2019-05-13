@@ -57,9 +57,22 @@ include src/CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/main.dir/flags.make
 
+src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o: ../src/Inductive_miner_algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Inductive_miner_algorithm.cpp"
+
+src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Inductive_miner_algorithm.cpp" > CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.i
+
+src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Inductive_miner_algorithm.cpp" -o CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.s
+
 src/CMakeFiles/main.dir/main.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
 	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/main.cpp"
 
 src/CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -70,137 +83,139 @@ src/CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/main.cpp" -o CMakeFiles/main.dir/main.cpp.s
 
-src/CMakeFiles/main.dir/Event.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/Event.cpp.o: ../src/Event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/main.dir/Event.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Event.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Event.cpp"
+src/CMakeFiles/main.dir/tools/Event.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/tools/Event.cpp.o: ../src/tools/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/main.dir/tools/Event.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/Event.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Event.cpp"
 
-src/CMakeFiles/main.dir/Event.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Event.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Event.cpp" > CMakeFiles/main.dir/Event.cpp.i
+src/CMakeFiles/main.dir/tools/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/Event.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Event.cpp" > CMakeFiles/main.dir/tools/Event.cpp.i
 
-src/CMakeFiles/main.dir/Event.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Event.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Event.cpp" -o CMakeFiles/main.dir/Event.cpp.s
+src/CMakeFiles/main.dir/tools/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/Event.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Event.cpp" -o CMakeFiles/main.dir/tools/Event.cpp.s
 
-src/CMakeFiles/main.dir/ProcessTree.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/ProcessTree.cpp.o: ../src/ProcessTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/main.dir/ProcessTree.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/ProcessTree.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/ProcessTree.cpp"
+src/CMakeFiles/main.dir/tools/Footprint.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/tools/Footprint.cpp.o: ../src/tools/Footprint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/main.dir/tools/Footprint.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/Footprint.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Footprint.cpp"
 
-src/CMakeFiles/main.dir/ProcessTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/ProcessTree.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/ProcessTree.cpp" > CMakeFiles/main.dir/ProcessTree.cpp.i
+src/CMakeFiles/main.dir/tools/Footprint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/Footprint.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Footprint.cpp" > CMakeFiles/main.dir/tools/Footprint.cpp.i
 
-src/CMakeFiles/main.dir/ProcessTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/ProcessTree.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/ProcessTree.cpp" -o CMakeFiles/main.dir/ProcessTree.cpp.s
+src/CMakeFiles/main.dir/tools/Footprint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/Footprint.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Footprint.cpp" -o CMakeFiles/main.dir/tools/Footprint.cpp.s
 
-src/CMakeFiles/main.dir/Trace.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/Trace.cpp.o: ../src/Trace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/main.dir/Trace.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Trace.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Trace.cpp"
+src/CMakeFiles/main.dir/tools/ProcessTree.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/tools/ProcessTree.cpp.o: ../src/tools/ProcessTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/main.dir/tools/ProcessTree.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/ProcessTree.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/ProcessTree.cpp"
 
-src/CMakeFiles/main.dir/Trace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Trace.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Trace.cpp" > CMakeFiles/main.dir/Trace.cpp.i
+src/CMakeFiles/main.dir/tools/ProcessTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/ProcessTree.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/ProcessTree.cpp" > CMakeFiles/main.dir/tools/ProcessTree.cpp.i
 
-src/CMakeFiles/main.dir/Trace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Trace.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Trace.cpp" -o CMakeFiles/main.dir/Trace.cpp.s
+src/CMakeFiles/main.dir/tools/ProcessTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/ProcessTree.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/ProcessTree.cpp" -o CMakeFiles/main.dir/tools/ProcessTree.cpp.s
 
-src/CMakeFiles/main.dir/Footprint.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/Footprint.cpp.o: ../src/Footprint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/main.dir/Footprint.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Footprint.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Footprint.cpp"
+src/CMakeFiles/main.dir/tools/Trace.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/tools/Trace.cpp.o: ../src/tools/Trace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/main.dir/tools/Trace.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/tools/Trace.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Trace.cpp"
 
-src/CMakeFiles/main.dir/Footprint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Footprint.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Footprint.cpp" > CMakeFiles/main.dir/Footprint.cpp.i
+src/CMakeFiles/main.dir/tools/Trace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tools/Trace.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Trace.cpp" > CMakeFiles/main.dir/tools/Trace.cpp.i
 
-src/CMakeFiles/main.dir/Footprint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Footprint.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Footprint.cpp" -o CMakeFiles/main.dir/Footprint.cpp.s
+src/CMakeFiles/main.dir/tools/Trace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tools/Trace.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Trace.cpp" -o CMakeFiles/main.dir/tools/Trace.cpp.s
 
-src/CMakeFiles/main.dir/Place.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/Place.cpp.o: ../src/Place.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/main.dir/Place.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Place.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Place.cpp"
+src/CMakeFiles/main.dir/components/Component.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/components/Component.cpp.o: ../src/components/Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/main.dir/components/Component.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/components/Component.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.cpp"
 
-src/CMakeFiles/main.dir/Place.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Place.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Place.cpp" > CMakeFiles/main.dir/Place.cpp.i
+src/CMakeFiles/main.dir/components/Component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/components/Component.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.cpp" > CMakeFiles/main.dir/components/Component.cpp.i
 
-src/CMakeFiles/main.dir/Place.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Place.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Place.cpp" -o CMakeFiles/main.dir/Place.cpp.s
+src/CMakeFiles/main.dir/components/Component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/Component.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.cpp" -o CMakeFiles/main.dir/components/Component.cpp.s
 
-src/CMakeFiles/main.dir/Node.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/Node.cpp.o: ../src/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/main.dir/Node.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Node.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Node.cpp"
+src/CMakeFiles/main.dir/components/Node.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/components/Node.cpp.o: ../src/components/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/main.dir/components/Node.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/components/Node.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Node.cpp"
 
-src/CMakeFiles/main.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Node.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Node.cpp" > CMakeFiles/main.dir/Node.cpp.i
+src/CMakeFiles/main.dir/components/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/components/Node.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Node.cpp" > CMakeFiles/main.dir/components/Node.cpp.i
 
-src/CMakeFiles/main.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Node.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Node.cpp" -o CMakeFiles/main.dir/Node.cpp.s
+src/CMakeFiles/main.dir/components/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/Node.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Node.cpp" -o CMakeFiles/main.dir/components/Node.cpp.s
 
-src/CMakeFiles/main.dir/Petri_net.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/Petri_net.cpp.o: ../src/Petri_net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/main.dir/Petri_net.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Petri_net.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Petri_net.cpp"
+src/CMakeFiles/main.dir/components/Petri_net.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/components/Petri_net.cpp.o: ../src/components/Petri_net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/main.dir/components/Petri_net.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/components/Petri_net.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Petri_net.cpp"
 
-src/CMakeFiles/main.dir/Petri_net.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Petri_net.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Petri_net.cpp" > CMakeFiles/main.dir/Petri_net.cpp.i
+src/CMakeFiles/main.dir/components/Petri_net.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/components/Petri_net.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Petri_net.cpp" > CMakeFiles/main.dir/components/Petri_net.cpp.i
 
-src/CMakeFiles/main.dir/Petri_net.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Petri_net.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Petri_net.cpp" -o CMakeFiles/main.dir/Petri_net.cpp.s
+src/CMakeFiles/main.dir/components/Petri_net.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/Petri_net.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Petri_net.cpp" -o CMakeFiles/main.dir/components/Petri_net.cpp.s
 
-src/CMakeFiles/main.dir/Component.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/Component.cpp.o: ../src/Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/main.dir/Component.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Component.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Component.cpp"
+src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o: ../test/Algortihm_B_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp"
 
-src/CMakeFiles/main.dir/Component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Component.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Component.cpp" > CMakeFiles/main.dir/Component.cpp.i
+src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp" > CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.i
 
-src/CMakeFiles/main.dir/Component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Component.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/Component.cpp" -o CMakeFiles/main.dir/Component.cpp.s
+src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp" -o CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o" \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/Event.cpp.o" \
-"CMakeFiles/main.dir/ProcessTree.cpp.o" \
-"CMakeFiles/main.dir/Trace.cpp.o" \
-"CMakeFiles/main.dir/Footprint.cpp.o" \
-"CMakeFiles/main.dir/Place.cpp.o" \
-"CMakeFiles/main.dir/Node.cpp.o" \
-"CMakeFiles/main.dir/Petri_net.cpp.o" \
-"CMakeFiles/main.dir/Component.cpp.o"
+"CMakeFiles/main.dir/tools/Event.cpp.o" \
+"CMakeFiles/main.dir/tools/Footprint.cpp.o" \
+"CMakeFiles/main.dir/tools/ProcessTree.cpp.o" \
+"CMakeFiles/main.dir/tools/Trace.cpp.o" \
+"CMakeFiles/main.dir/components/Component.cpp.o" \
+"CMakeFiles/main.dir/components/Node.cpp.o" \
+"CMakeFiles/main.dir/components/Petri_net.cpp.o" \
+"CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+src/main: src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o
 src/main: src/CMakeFiles/main.dir/main.cpp.o
-src/main: src/CMakeFiles/main.dir/Event.cpp.o
-src/main: src/CMakeFiles/main.dir/ProcessTree.cpp.o
-src/main: src/CMakeFiles/main.dir/Trace.cpp.o
-src/main: src/CMakeFiles/main.dir/Footprint.cpp.o
-src/main: src/CMakeFiles/main.dir/Place.cpp.o
-src/main: src/CMakeFiles/main.dir/Node.cpp.o
-src/main: src/CMakeFiles/main.dir/Petri_net.cpp.o
-src/main: src/CMakeFiles/main.dir/Component.cpp.o
+src/main: src/CMakeFiles/main.dir/tools/Event.cpp.o
+src/main: src/CMakeFiles/main.dir/tools/Footprint.cpp.o
+src/main: src/CMakeFiles/main.dir/tools/ProcessTree.cpp.o
+src/main: src/CMakeFiles/main.dir/tools/Trace.cpp.o
+src/main: src/CMakeFiles/main.dir/components/Component.cpp.o
+src/main: src/CMakeFiles/main.dir/components/Node.cpp.o
+src/main: src/CMakeFiles/main.dir/components/Petri_net.cpp.o
+src/main: src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o
 src/main: src/CMakeFiles/main.dir/build.make
 src/main: src/CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
 	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

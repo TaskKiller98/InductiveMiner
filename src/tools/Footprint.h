@@ -11,7 +11,7 @@
 #include <map>
 #include <algorithm>
 #include "Trace.h"
-#include "Node.h"
+#include "../components/Node.h"
 
 
 struct myClassComp {

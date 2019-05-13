@@ -5,7 +5,7 @@
 		<Option title="Kursach"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug"/>
@@ -83,63 +83,128 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tests">
+				<Option output="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/test/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gosha/Рабочий стол/projects/InductiveMiner/test/../src"/>
+					<Add directory="/home/gosha/Рабочий стол/projects/InductiveMiner/test/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/test/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gosha/Рабочий стол/projects/InductiveMiner/test/../src"/>
+					<Add directory="/home/gosha/Рабочий стол/projects/InductiveMiner/test/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gosha/Рабочий\ стол/projects/InductiveMiner/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Component.cpp">
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Inductive_miner_algorithm.cpp">
+			<Option target="main"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Inductive_miner_algorithm.h">
+			<Option target="main"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Component.h">
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Component.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Event.cpp">
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Node.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Event.h">
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Node.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Footprint.cpp">
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Petri_net.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Footprint.h">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Node.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Node.h">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Petri_net.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Petri_net.h">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Place.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Place.h">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/ProcessTree.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/ProcessTree.h">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Trace.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/Trace.h">
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Petri_net.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/main.cpp">
 			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Event.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Event.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Footprint.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Footprint.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/ProcessTree.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/ProcessTree.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Trace.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/tools/Trace.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp">
+			<Option target="main"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/test/gtest/gtest-all.cc">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/test/gtest/gtest_main.cc">
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/gosha/Рабочий стол/projects/InductiveMiner/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

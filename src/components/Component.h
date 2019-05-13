@@ -16,6 +16,7 @@ public:
     Node* get_start();
     Node* get_finish();
     void add_component(string operation, Component component);
+    void replace(Node* was, Node* will);
 private:
     Node* start;
     Node* finish;

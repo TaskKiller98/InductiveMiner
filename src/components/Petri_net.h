@@ -8,7 +8,7 @@
 
 #include <set>
 #include "Node.h"
-#include "Footprint.h"
+#include "../tools/Footprint.h"
 #include "Component.h"
 
 class Petri_net
