@@ -38,7 +38,7 @@ add_custom_command(
         ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
         -I "${proto_path}"
-        -I "${CMAKE_CURRENT_BINARY_DIR}/../../grpc/third_party/protobuf/src"
+        -I "${CMAKE_CURRENT_SOURCE_DIR}/../grpc/third_party/protobuf/src"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${petri_net_proto}"
         DEPENDS "${petri_net_proto}")
@@ -49,7 +49,7 @@ add_custom_command(
         ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
         -I "${proto_path}"
-        -I "${CMAKE_CURRENT_BINARY_DIR}/../../grpc/third_party/protobuf/src"
+        -I "${CMAKE_CURRENT_SOURCE_DIR}/../grpc/third_party/protobuf/src"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${logs_proto}"
         DEPENDS "${logs_proto}")
@@ -60,7 +60,7 @@ add_custom_command(
         ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
         -I "${proto_path}"
-        -I "${CMAKE_CURRENT_BINARY_DIR}/../../grpc/third_party/protobuf/src"
+        -I "${CMAKE_CURRENT_SOURCE_DIR}/../grpc/third_party/protobuf/src"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${mining_proto}"
         DEPENDS "${mining_proto}")
