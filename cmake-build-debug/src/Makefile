@@ -48,10 +48,10 @@ RM = /snap/clion/70/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner"
+CMAKE_SOURCE_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/progress.marks"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" 0
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/CMakeFiles" "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/src/CMakeFiles/progress.marks"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/src.dir/rule:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/src.dir/rule
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/src.dir/rule
 .PHONY : src/CMakeFiles/src.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ src: src/CMakeFiles/src.dir/rule
 
 # fast build rule for target.
 src/fast:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
 .PHONY : src/fast
 
 Inductive_miner_algorithm.o: Inductive_miner_algorithm.cpp.o
@@ -131,7 +131,7 @@ Inductive_miner_algorithm.o: Inductive_miner_algorithm.cpp.o
 
 # target to build an object file
 Inductive_miner_algorithm.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Inductive_miner_algorithm.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Inductive_miner_algorithm.cpp.o
 .PHONY : Inductive_miner_algorithm.cpp.o
 
 Inductive_miner_algorithm.i: Inductive_miner_algorithm.cpp.i
@@ -140,7 +140,7 @@ Inductive_miner_algorithm.i: Inductive_miner_algorithm.cpp.i
 
 # target to preprocess a source file
 Inductive_miner_algorithm.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Inductive_miner_algorithm.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Inductive_miner_algorithm.cpp.i
 .PHONY : Inductive_miner_algorithm.cpp.i
 
 Inductive_miner_algorithm.s: Inductive_miner_algorithm.cpp.s
@@ -149,7 +149,7 @@ Inductive_miner_algorithm.s: Inductive_miner_algorithm.cpp.s
 
 # target to generate assembly for a file
 Inductive_miner_algorithm.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Inductive_miner_algorithm.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Inductive_miner_algorithm.cpp.s
 .PHONY : Inductive_miner_algorithm.cpp.s
 
 components/Component.o: components/Component.cpp.o
@@ -158,7 +158,7 @@ components/Component.o: components/Component.cpp.o
 
 # target to build an object file
 components/Component.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Component.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Component.cpp.o
 .PHONY : components/Component.cpp.o
 
 components/Component.i: components/Component.cpp.i
@@ -167,7 +167,7 @@ components/Component.i: components/Component.cpp.i
 
 # target to preprocess a source file
 components/Component.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Component.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Component.cpp.i
 .PHONY : components/Component.cpp.i
 
 components/Component.s: components/Component.cpp.s
@@ -176,7 +176,7 @@ components/Component.s: components/Component.cpp.s
 
 # target to generate assembly for a file
 components/Component.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Component.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Component.cpp.s
 .PHONY : components/Component.cpp.s
 
 components/Node.o: components/Node.cpp.o
@@ -185,7 +185,7 @@ components/Node.o: components/Node.cpp.o
 
 # target to build an object file
 components/Node.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Node.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Node.cpp.o
 .PHONY : components/Node.cpp.o
 
 components/Node.i: components/Node.cpp.i
@@ -194,7 +194,7 @@ components/Node.i: components/Node.cpp.i
 
 # target to preprocess a source file
 components/Node.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Node.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Node.cpp.i
 .PHONY : components/Node.cpp.i
 
 components/Node.s: components/Node.cpp.s
@@ -203,7 +203,7 @@ components/Node.s: components/Node.cpp.s
 
 # target to generate assembly for a file
 components/Node.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Node.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Node.cpp.s
 .PHONY : components/Node.cpp.s
 
 components/Petri_net.o: components/Petri_net.cpp.o
@@ -212,7 +212,7 @@ components/Petri_net.o: components/Petri_net.cpp.o
 
 # target to build an object file
 components/Petri_net.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Petri_net.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Petri_net.cpp.o
 .PHONY : components/Petri_net.cpp.o
 
 components/Petri_net.i: components/Petri_net.cpp.i
@@ -221,7 +221,7 @@ components/Petri_net.i: components/Petri_net.cpp.i
 
 # target to preprocess a source file
 components/Petri_net.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Petri_net.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Petri_net.cpp.i
 .PHONY : components/Petri_net.cpp.i
 
 components/Petri_net.s: components/Petri_net.cpp.s
@@ -230,7 +230,7 @@ components/Petri_net.s: components/Petri_net.cpp.s
 
 # target to generate assembly for a file
 components/Petri_net.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Petri_net.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/components/Petri_net.cpp.s
 .PHONY : components/Petri_net.cpp.s
 
 main.o: main.cpp.o
@@ -239,7 +239,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/main.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -248,7 +248,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/main.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -257,7 +257,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/main.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 tools/Event.o: tools/Event.cpp.o
@@ -266,7 +266,7 @@ tools/Event.o: tools/Event.cpp.o
 
 # target to build an object file
 tools/Event.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Event.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Event.cpp.o
 .PHONY : tools/Event.cpp.o
 
 tools/Event.i: tools/Event.cpp.i
@@ -275,7 +275,7 @@ tools/Event.i: tools/Event.cpp.i
 
 # target to preprocess a source file
 tools/Event.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Event.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Event.cpp.i
 .PHONY : tools/Event.cpp.i
 
 tools/Event.s: tools/Event.cpp.s
@@ -284,7 +284,7 @@ tools/Event.s: tools/Event.cpp.s
 
 # target to generate assembly for a file
 tools/Event.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Event.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Event.cpp.s
 .PHONY : tools/Event.cpp.s
 
 tools/Footprint.o: tools/Footprint.cpp.o
@@ -293,7 +293,7 @@ tools/Footprint.o: tools/Footprint.cpp.o
 
 # target to build an object file
 tools/Footprint.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Footprint.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Footprint.cpp.o
 .PHONY : tools/Footprint.cpp.o
 
 tools/Footprint.i: tools/Footprint.cpp.i
@@ -302,7 +302,7 @@ tools/Footprint.i: tools/Footprint.cpp.i
 
 # target to preprocess a source file
 tools/Footprint.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Footprint.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Footprint.cpp.i
 .PHONY : tools/Footprint.cpp.i
 
 tools/Footprint.s: tools/Footprint.cpp.s
@@ -311,7 +311,7 @@ tools/Footprint.s: tools/Footprint.cpp.s
 
 # target to generate assembly for a file
 tools/Footprint.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Footprint.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Footprint.cpp.s
 .PHONY : tools/Footprint.cpp.s
 
 tools/Trace.o: tools/Trace.cpp.o
@@ -320,7 +320,7 @@ tools/Trace.o: tools/Trace.cpp.o
 
 # target to build an object file
 tools/Trace.cpp.o:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Trace.cpp.o
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Trace.cpp.o
 .PHONY : tools/Trace.cpp.o
 
 tools/Trace.i: tools/Trace.cpp.i
@@ -329,7 +329,7 @@ tools/Trace.i: tools/Trace.cpp.i
 
 # target to preprocess a source file
 tools/Trace.cpp.i:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Trace.cpp.i
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Trace.cpp.i
 .PHONY : tools/Trace.cpp.i
 
 tools/Trace.s: tools/Trace.cpp.s
@@ -338,7 +338,7 @@ tools/Trace.s: tools/Trace.cpp.s
 
 # target to generate assembly for a file
 tools/Trace.cpp.s:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Trace.cpp.s
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tools/Trace.cpp.s
 .PHONY : tools/Trace.cpp.s
 
 # Help Target
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

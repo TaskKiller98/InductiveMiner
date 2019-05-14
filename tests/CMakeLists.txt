@@ -6,6 +6,7 @@ add_executable(tests
         # test sources
         Tools_test.cpp
         Components_test.cpp
+        Inductive_test.cpp
         # task sources
         ../src/tools/Event.cpp
         ../src/tools/Footprint.cpp

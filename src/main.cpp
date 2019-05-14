@@ -15,20 +15,25 @@ using namespace std;
 
 int main()
 {
-    ifstream fin("../../resource/input.txt");
+    ifstream fin("../input/input.ind");
     set < Trace*, myClassComp > traces;
     string buff;
     while (fin >> buff)
         traces.insert(new Trace(buff));
     Inductive_miner_algorithm* inductiveMinerAlgorithm = new Inductive_miner_algorithm();
-    cout << inductiveMinerAlgorithm->algorithm_B(traces)<< endl;
+    ofstream fout2("../res/Model.txt");
+    fout2 << inductiveMinerAlgorithm->algorithm_B(traces)<< endl;
     Component* comp = inductiveMinerAlgorithm->algorithm_B_graph(traces);
     Petri_net petriNet(*comp);
-    cout << petriNet.to_string();
+    ofstream fout("../res/Petri_net.dot");
+
+    fout << petriNet.to_string();
     for (Trace* trace : traces)
         delete trace;
     delete comp;
     delete inductiveMinerAlgorithm;
     fin.close();
+    fout.close();
+    fout2.close();
     return 0;
 }

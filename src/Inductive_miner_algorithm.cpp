@@ -154,7 +154,7 @@ string Inductive_miner_algorithm::algorithm_B(const set<Trace *, myClassComp> &L
     if (new_logs.empty())
     {
         if (base.empty())
-            return  "Kek!";
+            return  "Incorrect!";
         else
             return base;
     }
