@@ -13,9 +13,12 @@ using namespace std;
 
 //set для удаления
 
-int main()
+int main(int argc, char **argv)
 {
-    ifstream fin("../input/input.ind");
+    string path = "../input/input.ind";
+    if (argc > 1)
+        path = argv[1];
+    ifstream fin(path);
     set < Trace*, myClassComp > traces;
     string buff;
     while (fin >> buff)
