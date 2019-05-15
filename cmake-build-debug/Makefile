@@ -48,10 +48,10 @@ RM = /snap/clion/70/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner"
+CMAKE_SOURCE_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/CMakeFiles" "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named src
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+src: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src
+.PHONY : src
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
-.PHONY : main/fast
+src/fast:
+	$(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
+.PHONY : src/fast
 
 #=============================================================================
 # Target rules for targets named tests
@@ -133,7 +133,7 @@ tests: cmake_check_build_system
 
 # fast build rule for target.
 tests/fast:
-	$(MAKE) -f test/CMakeFiles/tests.dir/build.make test/CMakeFiles/tests.dir/build
+	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
 # Help Target
@@ -144,7 +144,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main"
+	@echo "... src"
 	@echo "... tests"
 .PHONY : help
 

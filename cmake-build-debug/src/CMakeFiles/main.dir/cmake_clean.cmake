@@ -8,7 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/components/Component.cpp.o"
   "CMakeFiles/main.dir/components/Node.cpp.o"
   "CMakeFiles/main.dir/components/Petri_net.cpp.o"
-  "CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o"
+  "CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o"
   "main.pdb"
   "main"
 )

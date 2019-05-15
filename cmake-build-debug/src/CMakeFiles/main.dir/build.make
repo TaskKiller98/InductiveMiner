@@ -174,18 +174,18 @@ src/CMakeFiles/main.dir/components/Petri_net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/Petri_net.cpp.s"
 	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/src/components/Petri_net.cpp" -o CMakeFiles/main.dir/components/Petri_net.cpp.s
 
-src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o: ../test/Algortihm_B_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp"
+src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o: ../tests/Algortihm_B_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o -c "/home/gosha/Рабочий стол/projects/InductiveMiner/tests/Algortihm_B_test.cpp"
 
-src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.i"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp" > CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.i
+src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.i"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gosha/Рабочий стол/projects/InductiveMiner/tests/Algortihm_B_test.cpp" > CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.i
 
-src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.s"
-	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/test/Algortihm_B_test.cpp" -o CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.s
+src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.s"
+	cd "/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gosha/Рабочий стол/projects/InductiveMiner/tests/Algortihm_B_test.cpp" -o CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -198,7 +198,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/components/Component.cpp.o" \
 "CMakeFiles/main.dir/components/Node.cpp.o" \
 "CMakeFiles/main.dir/components/Petri_net.cpp.o" \
-"CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o"
+"CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -212,7 +212,7 @@ src/main: src/CMakeFiles/main.dir/tools/Trace.cpp.o
 src/main: src/CMakeFiles/main.dir/components/Component.cpp.o
 src/main: src/CMakeFiles/main.dir/components/Node.cpp.o
 src/main: src/CMakeFiles/main.dir/components/Petri_net.cpp.o
-src/main: src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o
+src/main: src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o
 src/main: src/CMakeFiles/main.dir/build.make
 src/main: src/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"

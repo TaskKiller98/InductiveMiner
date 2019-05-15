@@ -1,8 +1,8 @@
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/main.dir
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/test/CMakeFiles/tests.dir
-/home/gosha/Рабочий стол/projects/InductiveMiner/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/src/CMakeFiles/src.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/tests/CMakeFiles/tests.dir
+/home/gosha/Рабочий стол/projects/InductiveMiner2/cmake-build-debug/tests/CMakeFiles/edit_cache.dir

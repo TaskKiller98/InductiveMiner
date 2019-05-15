@@ -9,7 +9,7 @@ src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o: ../src/tools/Event.h
 src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o: ../src/tools/Footprint.h
 src/CMakeFiles/main.dir/Inductive_miner_algorithm.cpp.o: ../src/tools/Trace.h
 
-src/CMakeFiles/main.dir/__/test/Algortihm_B_test.cpp.o: ../test/Algortihm_B_test.cpp
+src/CMakeFiles/main.dir/__/tests/Algortihm_B_test.cpp.o: ../tests/Algortihm_B_test.cpp
 
 src/CMakeFiles/main.dir/components/Component.cpp.o: ../src/components/Component.cpp
 src/CMakeFiles/main.dir/components/Component.cpp.o: ../src/components/Component.h
